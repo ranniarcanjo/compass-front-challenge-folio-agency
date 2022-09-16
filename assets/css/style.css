@@ -1,0 +1,58 @@
+@import url("../style/header.css");
+@import url("../style/footer.css");
+@import url("../style/job.css");
+@import url("../style/cta.css");
+@import url("../style/work.css");
+
+:root {
+    --white: #FFFFFF; 
+    --text-dark: #000000;
+    --color-primary: #5468E7;
+    --color-secondary: #C897E4;
+    --color-dark: #232340;
+    --color-text: #8B8B8B;
+    --color-blue-gradiente: linear-gradient(180deg, #3A8FFF 0%, #0837AE 100%);
+    --color-white-gradiente: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
+    --color-oxford-gradiente:linear-gradient(0deg, rgba(50, 50, 89, 0.0001) 0%, #323259 72.97%);
+    --color-shade-blue:#D1ECFD;
+    --color-shade-pink: #FFADD0;
+    --color-shade-blue-dark:#323259;
+    --color-shade-lilac: #E8BEFF;
+    --color-shade-light:#EDEDED;
+    --color-shade-orange: #FFCE79;
+    --color-shade-royal:#908CFF;
+    --color-accent-orange: #FFBA79;
+    --color-accent-purple: #9A97ED;
+    --color-accent-pink:#FFC7DF;
+    --color-body-light:#606060;
+    --color-body-dark: #8B8B8B;
+    --color-body-deactive: #ADADAD;
+    --fonte-principal: "Roboto";
+
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: var(--fonte-principal);
+}
+
+.page-title {
+    display: flex;
+    flex-direction: row;
+    gap:2.4rem;
+    margin-bottom: 2.4rem;
+}
+
+.page-title span{
+    font-size: 1.4rem;
+    color: var(--color-primary);
+    font-weight: 600;
+    margin-top: 8rem;
+}
