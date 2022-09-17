@@ -1,8 +1,8 @@
-@import url("../style/header.css");
-@import url("../style/footer.css");
-@import url("../style/job.css");
-@import url("../style/cta.css");
-@import url("../style/work.css");
+@import url("../css/header.css");
+@import url("../css/footer.css");
+@import url("../css/job.css");
+@import url("../css/cta.css");
+@import url("../css/work.css");
 
 :root {
     --white: #FFFFFF; 
@@ -41,6 +41,12 @@
 body {
     font-size: 1.6rem;
     font-family: var(--fonte-principal);
+}
+
+.bg-body{
+    background-image: url(../img/line.svg);
+    background-repeat: no-repeat;
+    background-position: -70% 0%;
 }
 
 .page-title {
