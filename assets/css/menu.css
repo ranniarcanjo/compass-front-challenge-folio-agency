@@ -4,7 +4,7 @@
     background-image: url(../img/line-menu.svg);
     background-repeat: no-repeat;
     background-position: 12rem 0rem;
-    background-color: #232340;
+    background-color: var(--color-dark);
 }
 
 .header-menu-m{
@@ -12,7 +12,7 @@
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    padding: 7rem 3rem;
+    padding: 4rem 3rem;
     justify-content: space-between;
 }
 
@@ -30,15 +30,15 @@
 .nav-list-m li a{
     font-size: 3.2rem;
     font-weight: 700;
-    color: #595976;
+    color: var(--color-shade-menu);
 }
 
 .nav-list-m li a:hover{
-    color: #FFF;
+    color: var(--white);
 }
 
 .nav-list-m li a:active{
-    color: #FFF;
+    color:var(--white);
 }
 
 .btn-toggle-menu-m{
@@ -55,7 +55,7 @@
     width: 90%;
     height: .4rem;
     border-radius: 1rem;
-    background-color: #232340;
+    background-color: var(--color-dark);
 }
 
 .btn-toggle-menu-m span:hover{
@@ -63,14 +63,14 @@
 }
 
 .btn-toggle-menu-m span:nth-child(1){
-    background-color: #FFF;
+    background-color:var(--white);
     transform: rotate(135deg);
     position: relative;
     bottom: -.5rem;
 }
 
 .btn-toggle-menu-m span:nth-child(2){
-    background-color: #FFF;
+    background-color: var(--white);
     position: relative;
     transform: rotate(-135deg);
     top: -.9rem;

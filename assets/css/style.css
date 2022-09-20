@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 @import url("../css/menu.css");
 @import url("../css/header.css");
 @import url("../css/footer.css");
@@ -23,12 +24,15 @@
     --color-shade-light:#EDEDED;
     --color-shade-orange: #FFCE79;
     --color-shade-royal:#908CFF;
+    --color-shade-menu: #595976;
     --color-accent-orange: #FFBA79;
     --color-accent-purple: #9A97ED;
     --color-accent-pink:#FFC7DF;
     --color-body-light:#606060;
     --color-body-dark: #8B8B8B;
     --color-body-deactive: #ADADAD;
+    --color-body-blur: #D8D8D8;
+    --color-body-grey:#7c7c7c;
     --fonte-principal: "Roboto";
 
     font-size: 62.5%;
@@ -43,6 +47,10 @@
 body {
     font-size: 1.6rem;
     font-family: var(--fonte-principal);
+}
+
+main{
+    margin: 4rem auto;
 }
 
 .bg-body{
@@ -62,5 +70,5 @@ body {
     font-size: 1.4rem;
     color: var(--color-primary);
     font-weight: 600;
-    margin-top: 8rem;
+    margin-top: 2rem;
 }

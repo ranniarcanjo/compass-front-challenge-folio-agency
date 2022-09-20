@@ -1,10 +1,10 @@
 header{
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
 header .nav-menu{
   height: 7rem;
-  padding: 3rem 3rem; 
+  padding: 0rem 3rem; 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,15 +25,15 @@ header .nav-menu{
     text-decoration: none;
     font-size: 1.6rem;
     font-weight: 600;
-    color: #8B8B8B;
+    color: var(--color-body-dark);
 }
 
 .nav-list li a:hover{
-    color: #5468E7;
+    color: var(--color-primary);
 }
 
 .nav-list li a.active{
-    color: #5468E7;
+    color: var(--color-primary);
 }
 
 .btn-contact-us{
@@ -41,8 +41,8 @@ header .nav-menu{
     width: 18rem;
     height: 4.6rem;
     padding: 1rem 1rem;
-    background-color: #232340;
-    color: #fff;
+    background-color: var(--color-dark);
+    color: var(--white);
     border-radius: .8rem;
     line-height: 2.4rem;
     text-align: center;
@@ -65,7 +65,7 @@ header .nav-menu{
     width: 90%;
     height: .4rem;
     border-radius: 1rem;
-    background-color: #232340;
+    background-color: var(--color-dark);
 }
 
 .btn-toggle-menu span:hover{
