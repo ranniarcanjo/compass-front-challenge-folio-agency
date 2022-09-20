@@ -6,6 +6,9 @@
 @import url("../css/job.css");
 @import url("../css/cta.css");
 @import url("../css/work.css");
+@import url("../css/service.css");
+@import url("../css/who-we-are.css");
+
 
 :root {
     --white: #FFFFFF; 
@@ -50,7 +53,7 @@ body {
 }
 
 main{
-    margin: 4rem auto;
+    margin: 0rem auto;
 }
 
 .bg-body{

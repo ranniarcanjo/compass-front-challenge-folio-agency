@@ -1,0 +1,45 @@
+.main-service {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* background-image: url(../img/line.svg);
+    background-position: -50% -20%;
+    background-repeat: no-repeat; */
+
+    /* background-color: #000; */
+    background: var(--color-white-gradiente), url(../img/line.svg) no-repeat -50% -20%;
+    /* padding-top: calc(2rem + 70px); */
+
+}
+
+.card-service {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--white);
+    border-radius: 24px;
+    height: 17.5rem;
+    padding: 4.5rem 4rem;
+}
+
+.card-service-secundary {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-primary);
+    color: var(--white);
+    border-radius: 2.4rem;
+    height: 16.0rem;
+}
+
+.cicle-service {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-accent-pink);
+    border-radius: 100%;
+    width: 33.0rem;
+    height: 33.0rem;
+}
+
+.service.phone {
+    
+}
